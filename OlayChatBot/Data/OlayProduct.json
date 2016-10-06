@@ -1,0 +1,81 @@
+﻿{
+  "Products": [
+    {
+      "ProductId": "p1",
+      "Name": "Olay Natural White 3-IN-1 Fairness UV Protection",
+      "Type": "sun-protection-uv",
+      "SPFValue": 24,
+      "ImagePath": "https://cdn.discovery.pgsitecore.com/en-in/-/media/Olay_IN/Images/Callouts/Products/NW/NW_6/NW_6_Olay-Natural-White-3-IN-1-Fairness-UV-Protection_20g.jpg?w=1210&v=1-201511251811",
+      "URL": "https://www.olay.in/en-in/search?term=moisturiser",
+      "Location": "Big Bazar",
+      "Pin": "560002",
+      "Quantity": 4
+    },
+    {
+      "ProductId": "p2",
+      "Name": "Olay Total Effects 7 in One Anti-Ageing Day Cream Gentle SPF 15",
+      "Type": "sun-protection-uv",
+      "SPFValue": 15,
+      "ImagePath": "https://cdn.discovery.pgsitecore.com/en-in/-/media/Olay_IN/Images/Callouts/Products/TE/TE_11%20CC%20Cream%20Daily%20Moisturizer%20Touch%20of%20Foundation/TE_11_Olay-Total-Effects-7-in-One-Anti-Ageing-Day-Cream-Gentle-SPF-15_50g_FOP.jpg?w=1210&v=1-201511251812",
+      "URL": "https://www.olay.in/en-in/skin-care-products/facial-moisturisers/sun-protection-uv",
+      "Location": "Big Bazar",
+      "Pin": "560005",
+      "Quantity": 41
+    },
+    {
+      "ProductId": "p3",
+      "Name": "Olay Natural White 7 IN ONE Instant Glowing Fairness with UV Protection",
+      "Type": "sun-protection-uv",
+      "SPFValue": 2,
+      "ImagePath": "https://cdn.discovery.pgsitecore.com/en-in/-/media/Olay_IN/Images/Callouts/Products/NW/NW_4/NW_4_Olay-Natural-White-7-IN-ONE-Instant-Glowing-Fairness_40g_FOP.jpg?w=1210&v=1-201511251811",
+      "URL": "https://www.olay.in/en-in/skin-care-products/facial-moisturisers/sun-protection-uv",
+      "Location": "More Store",
+      "Pin": "560001",
+      "Quantity": 10
+    },
+    {
+      "ProductId": "p4",
+      "Name": "Olay Natural White 7 IN ONE Glowing Fairness Cream SPF 24",
+      "Type": "Day Moisturiser",
+      "SPFValue": 15,
+      "ImagePath": "https://cdn.discovery.pgsitecore.com/en-in/-/media/Olay_IN/Images/Callouts/Products/NW/NW_2/NW_16_Olay-Natural-White-Bar-with-Vitamin-C_120g_FOP.jpg?w=1210&v=1-201511251811",
+      "URL": "https://www.olay.in/en-in/skin-care-products/olay-natural-white-7-in-one-glowing-fairness-cream-spf-24",
+      "Location": "HyperCity",
+      "Pin": "560001",
+      "Quantity": 0
+    },
+    {
+      "ProductId": "p5",
+      "Name": "Olay White Radiance Brightening Intensive Cream",
+      "Type": "Day Moisturiser",
+      "SPFValue": 15,
+      "ImagePath": "https://cdn.discovery.pgsitecore.com/en-in/-/media/Olay_IN/Images/Callouts/Products/WR/WR_2/WR_2_Olay-White-Radiance-Brightening-Intensive-Cream_50g_FOP.jpg?w=1210&v=1-201511251813",
+      "URL": "https://www.olay.in/en-in/skin-care-products/olay-white-radiance-brightening-intensive-cream",
+      "Location": "Big Bazar",
+      "Pin": "560004",
+      "Quantity": 23
+    },
+    {
+      "ProductId": "p6",
+      "Name": "Olay Total Effects 7 in One Anti-ageing Night Cream",
+      "Type": "Night Moisturiser",
+      "SPFValue": 15,
+      "ImagePath": "https://cdn.discovery.pgsitecore.com/en-in/-/media/Olay_IN/Images/Callouts/Products/RG/RG_26_Regenerating%20Foaming%20Cleanser/A_00075609032967_Z1C1_US.jpg?w=1210&v=1-201504060434",
+      "URL": "https://www.olay.in/en-in/skin-care-products/facial-moisturisers/night-moisturiser",
+      "Location": "Value Store",
+      "Pin": "560001",
+      "Quantity": 3
+    },
+    {
+      "ProductId": "p7",
+      "Name": "Olay White Radiance Brightening Night Essence",
+      "Type": "Night Moisturiser",
+      "SPFValue": 24,
+      "ImagePath": "https://cdn.discovery.pgsitecore.com/en-in/-/media/Olay_IN/Images/Callouts/Products/WR/WR_3/WR_3_Olay-White-Radiance-Brightening-Night-Essence_50g_FOP.jpg?w=1210&v=1-201511251813",
+      "URL": "https://www.olay.in/en-in/skin-care-products/facial-moisturisers/night-moisturiser",
+      "Location": "Big Bazar",
+      "Pin": "560001",
+      "Quantity": 4
+    }
+  ]
+}
