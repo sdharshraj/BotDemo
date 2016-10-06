@@ -1,7 +1,7 @@
 ﻿{
   "Products": [
     {
-      "ProductId": "p1",
+      "ProductId": "pid1",
       "Name": "Olay Natural White 3-IN-1 Fairness UV Protection",
       "Type": "sun-protection-uv",
       "SPFValue": 24,
@@ -12,18 +12,51 @@
       "Quantity": 4
     },
     {
-      "ProductId": "p2",
+      "ProductId": "pid1",
+      "Name": "Olay Anti-Ageing Day Cream Gentle SPF 15",
+      "Type": "sun-protection-uv",
+      "SPFValue": 18,
+      "ImagePath": "https://cdn.discovery.pgsitecore.com/en-in/-/media/Olay_IN/Images/Callouts/Products/TE/TE_11%20CC%20Cream%20Daily%20Moisturizer%20Touch%20of%20Foundation/TE_11_Olay-Total-Effects-7-in-One-Anti-Ageing-Day-Cream-Gentle-SPF-15_50g_FOP.jpg?w=1210&v=1-201511251812",
+      "URL": "https://www.olay.in/en-in/skin-care-products/facial-moisturisers/sun-protection-uv",
+      "Location": "Big Bazar",
+      "Pin": "560005",
+      "Quantity": 15
+    },
+    {
+      "ProductId": "pid2",
       "Name": "Olay Total Effects 7 in One Anti-Ageing Day Cream Gentle SPF 15",
       "Type": "sun-protection-uv",
       "SPFValue": 15,
       "ImagePath": "https://cdn.discovery.pgsitecore.com/en-in/-/media/Olay_IN/Images/Callouts/Products/TE/TE_11%20CC%20Cream%20Daily%20Moisturizer%20Touch%20of%20Foundation/TE_11_Olay-Total-Effects-7-in-One-Anti-Ageing-Day-Cream-Gentle-SPF-15_50g_FOP.jpg?w=1210&v=1-201511251812",
       "URL": "https://www.olay.in/en-in/skin-care-products/facial-moisturisers/sun-protection-uv",
-      "Location": "Big Bazar",
+      "Location": "Super Market",
       "Pin": "560005",
       "Quantity": 41
     },
     {
-      "ProductId": "p3",
+      "ProductId": "pid2",
+      "Name": "Olay Total Effects 7 in One Anti-Ageing Day Cream Gentle SPF 15",
+      "Type": "sun-protection-uv",
+      "SPFValue": 18,
+      "ImagePath": "https://cdn.discovery.pgsitecore.com/en-in/-/media/Olay_IN/Images/Callouts/Products/TE/TE_11%20CC%20Cream%20Daily%20Moisturizer%20Touch%20of%20Foundation/TE_11_Olay-Total-Effects-7-in-One-Anti-Ageing-Day-Cream-Gentle-SPF-15_50g_FOP.jpg?w=1210&v=1-201511251812",
+      "URL": "https://www.olay.in/en-in/skin-care-products/facial-moisturisers/sun-protection-uv",
+      "Location": "Big Bazar",
+      "Pin": "560005",
+      "Quantity": 13
+    },
+    {
+      "ProductId": "pid2",
+      "Name": "Olay Total Effects 7 in One Anti-Ageing Day Cream Gentle SPF 15",
+      "Type": "sun-protection-uv",
+      "SPFValue": 19,
+      "ImagePath": "https://cdn.discovery.pgsitecore.com/en-in/-/media/Olay_IN/Images/Callouts/Products/TE/TE_11%20CC%20Cream%20Daily%20Moisturizer%20Touch%20of%20Foundation/TE_11_Olay-Total-Effects-7-in-One-Anti-Ageing-Day-Cream-Gentle-SPF-15_50g_FOP.jpg?w=1210&v=1-201511251812",
+      "URL": "https://www.olay.in/en-in/skin-care-products/facial-moisturisers/sun-protection-uv",
+      "Location": "More Store",
+      "Pin": "560005",
+      "Quantity": 25
+    },
+    {
+      "ProductId": "pid3",
       "Name": "Olay Natural White 7 IN ONE Instant Glowing Fairness with UV Protection",
       "Type": "sun-protection-uv",
       "SPFValue": 2,
@@ -34,7 +67,7 @@
       "Quantity": 10
     },
     {
-      "ProductId": "p4",
+      "ProductId": "pid4",
       "Name": "Olay Natural White 7 IN ONE Glowing Fairness Cream SPF 24",
       "Type": "Day Moisturiser",
       "SPFValue": 15,
@@ -45,7 +78,7 @@
       "Quantity": 0
     },
     {
-      "ProductId": "p5",
+      "ProductId": "pid5",
       "Name": "Olay White Radiance Brightening Intensive Cream",
       "Type": "Day Moisturiser",
       "SPFValue": 15,
@@ -56,7 +89,7 @@
       "Quantity": 23
     },
     {
-      "ProductId": "p6",
+      "ProductId": "pid6",
       "Name": "Olay Total Effects 7 in One Anti-ageing Night Cream",
       "Type": "Night Moisturiser",
       "SPFValue": 15,
@@ -67,7 +100,7 @@
       "Quantity": 3
     },
     {
-      "ProductId": "p7",
+      "ProductId": "pid7",
       "Name": "Olay White Radiance Brightening Night Essence",
       "Type": "Night Moisturiser",
       "SPFValue": 24,

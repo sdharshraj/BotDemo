@@ -50,6 +50,32 @@ namespace OlayChatBot.Models
         [LuisIntent("LocateStore")]
         public async Task LocateStore(IDialogContext context, LuisResult result)
         {
+            if (result.Query.StartsWith("pid"))
+            {
+                var message = result.Query;
+                Products data = JSONHelper.ReadJsonData();
+
+                List<Product> searchResult = data.products.FindAll(x => x.ProductId == message);
+
+                if (searchResult != null && searchResult.Count > 0)
+                {
+                    string str = $"##### Stores Near to your Location" + Environment.NewLine + Environment.NewLine;
+                    int count = 1;
+                    foreach (var item in searchResult)
+                    {
+                        str += $"{count}. {item.Location} " + Environment.NewLine + Environment.NewLine + "No. of Product available : " + item.Quantity + Environment.NewLine;
+                        count++;
+                    }
+                    await context.PostAsync(str);
+                    context.Wait(MessageReceived);
+                }
+                else
+                {
+                    await context.PostAsync($"There is No store near your location for this particular product.");
+                    context.Wait(MessageReceived);
+                }
+            }
+            else
             PromptDialog.Text(context, LocateStoreComplete, "Please enter the Pin Code to locate nearby stores.");
         }
         int counter = 0;
@@ -135,35 +161,8 @@ namespace OlayChatBot.Models
                 context.Wait(MessageReceived);
                 return;
             }
-            context.Wait(MessageReceived1);
+            context.Wait(MessageReceived);
         }
-
-        private async Task MessageReceived1(IDialogContext context, IAwaitable<IMessageActivity> result)
-        {
-            var message = await result;
-            Products data = JSONHelper.ReadJsonData();
-
-            List<Product> searchResult = data.products.FindAll(x => x.ProductId == message.Text);
-            
-            if (searchResult != null && searchResult.Count > 0)
-            {
-                string str = $"##### Stores Near to your Location" + Environment.NewLine + Environment.NewLine;
-                int count = 1;
-                foreach (var item in searchResult)
-                {
-                    str += $"{count}. {item.Location} " + Environment.NewLine + Environment.NewLine + "No. of Product available : " + item.Quantity + Environment.NewLine;
-                    count++;
-                }
-                await context.PostAsync(str);
-                context.Wait(MessageReceived);
-            }
-            else
-            {
-                await context.PostAsync($"There is No store near your location for this particular product.");
-                context.Wait(MessageReceived);
-            }
-        }
-
         internal static bool TryToGetValue(string text, string reg, out string value)
         {
             value = string.Empty;

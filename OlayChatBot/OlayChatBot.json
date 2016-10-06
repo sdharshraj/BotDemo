@@ -1,0 +1,1701 @@
+{
+  "luis_schema_version": "1.3.0",
+  "name": "OlayChatBot",
+  "desc": "Basic Chat Bot Learning",
+  "culture": "en-us",
+  "intents": [
+    {
+      "name": "Greet"
+    },
+    {
+      "name": "LocateStore"
+    },
+    {
+      "name": "No"
+    },
+    {
+      "name": "None"
+    },
+    {
+      "name": "Product"
+    },
+    {
+      "name": "Yes"
+    }
+  ],
+  "entities": [
+    {
+      "name": "ApplyType"
+    },
+    {
+      "name": "ProductId"
+    },
+    {
+      "name": "ProductType"
+    },
+    {
+      "name": "SPF"
+    }
+  ],
+  "composites": [],
+  "bing_entities": [],
+  "actions": [],
+  "model_features": [
+    {
+      "name": "Product",
+      "mode": true,
+      "words": "Moisturizer,moisturizers,farcical moisturizers,moisturizers cream,moisturizer,moisturisers,farcical moisturisers,moisturisers cream,Cleanser",
+      "activated": true
+    },
+    {
+      "name": "ProductType",
+      "mode": true,
+      "words": "Day,Night,Sun,UV",
+      "activated": true
+    }
+  ],
+  "regex_features": [],
+  "utterances": [
+    {
+      "text": "this is a good movie",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "htc is not that good",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "nothing else thanks",
+      "intent": "No",
+      "entities": []
+    },
+    {
+      "text": "is this a car rental service",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "yes",
+      "intent": "Yes",
+      "entities": []
+    },
+    {
+      "text": "manish is my friend",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "they don�t want to talk to me",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "not at all dear",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "the fan is not working",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "this is not good for health",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "get the best phone in the market",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "i just like to play laptop game",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "he is talking to me",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "i want to play cricket",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "no thnak you",
+      "intent": "No",
+      "entities": []
+    },
+    {
+      "text": "s",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "i am sitting in the chair",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "i am going for swimming",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "you should not eat burger",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "i like to go out for a day",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "its better not to sy anything",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "hey",
+      "intent": "Greet",
+      "entities": []
+    },
+    {
+      "text": "i want to make more friends",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "nope my dear",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "none wants to be your friend",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "we are going for a movie",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "i like pizza very much",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "the color of blood is red",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "my name is not rahul",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "i want to order some pizza",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "yeah",
+      "intent": "Yes",
+      "entities": []
+    },
+    {
+      "text": "hi",
+      "intent": "Greet",
+      "entities": []
+    },
+    {
+      "text": "nothing is perfect",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "yahu",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "they are coming tonight",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "i will be working from home",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "sky is blue",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "do the right thing",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "gonna eat some pizza",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "good evening",
+      "intent": "Greet",
+      "entities": []
+    },
+    {
+      "text": "rent a car",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "hello",
+      "intent": "Greet",
+      "entities": []
+    },
+    {
+      "text": "yaku",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "it is better to be quiet then saying nonsense",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "i have not gone to delhi",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "i have to go majestic",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "nothing",
+      "intent": "No",
+      "entities": []
+    },
+    {
+      "text": "today i am on leave",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "yap",
+      "intent": "Yes",
+      "entities": []
+    },
+    {
+      "text": "ya hoo",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "yes this is good place",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "yam",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "weather is not good today",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "he wants to be a singer",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "i won the match",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "i have some work at my native",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "this is my new jeans",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "get some snacks from the market",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "good morning",
+      "intent": "Greet",
+      "entities": []
+    },
+    {
+      "text": "don’t bother going there",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "no problem",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "she sings well",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "i get up late in the morning",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "i should buy a new shirt",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "nothing today",
+      "intent": "No",
+      "entities": []
+    },
+    {
+      "text": "i can not win the match",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "i want to play football",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "you are all alone",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "mumbai is a better place",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "playing tt is good for health",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "you dance well",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "i forgot you",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "i want to take photo",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "yes of course",
+      "intent": "Yes",
+      "entities": []
+    },
+    {
+      "text": "nope",
+      "intent": "No",
+      "entities": []
+    },
+    {
+      "text": "i am not able to talk",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "its to hot here",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "you should take tea",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "buy pizza",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "i don�t remember you",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "you should click some nice pic",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "yep",
+      "intent": "Yes",
+      "entities": []
+    },
+    {
+      "text": "ya",
+      "intent": "Yes",
+      "entities": []
+    },
+    {
+      "text": "this is rainy season",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "sita is a girl",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "dont drink and drive",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "i am playing counter strike",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "i have to catch a flight",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "you are dumb",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "my name is harsh raj",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "good night",
+      "intent": "Greet",
+      "entities": []
+    },
+    {
+      "text": "this picture is blur",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "it is a sunny day",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "get some rest",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "cricket is a good game",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "yaa hoo",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "counter strike is a good game",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "none",
+      "intent": "No",
+      "entities": []
+    },
+    {
+      "text": "i want to click a pic",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "i want to eat icecream",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "i want to book a train",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "ram is a boy",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "i am good in coding",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "i have 3 dogs",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "i want to be a good tt player",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "lets hang together",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "this is not a joke",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "esgsdg dfg dfgsdf gdfg",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "play some video",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "not",
+      "intent": "No",
+      "entities": []
+    },
+    {
+      "text": "i play table tennis",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "i want to use facebook",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "obviously",
+      "intent": "Yes",
+      "entities": []
+    },
+    {
+      "text": "no",
+      "intent": "No",
+      "entities": []
+    },
+    {
+      "text": "show me weather forecast",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "its not good juice",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "not now",
+      "intent": "No",
+      "entities": []
+    },
+    {
+      "text": "my home is very beautiful",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "lets have a party",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "we will go out tomorrow",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "this is my mobile",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "i will not forgive you",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "i will be there for you",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "i am just a beginner",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "yaah",
+      "intent": "Yes",
+      "entities": []
+    },
+    {
+      "text": "fighting is bad",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "i keep two shirts in my bag",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "oh yes",
+      "intent": "Yes",
+      "entities": []
+    },
+    {
+      "text": "friendship is best relation",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "play some music",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "nope, thanks",
+      "intent": "No",
+      "entities": []
+    },
+    {
+      "text": "don�t look at me",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "it�s a rainy day",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "i need a moisturisers",
+      "intent": "Product",
+      "entities": [
+        {
+          "entity": "ProductType",
+          "startPos": 3,
+          "endPos": 3
+        }
+      ]
+    },
+    {
+      "text": "i want a moisturisers",
+      "intent": "Product",
+      "entities": [
+        {
+          "entity": "ProductType",
+          "startPos": 3,
+          "endPos": 3
+        }
+      ]
+    },
+    {
+      "text": "can i get moisturisers",
+      "intent": "Product",
+      "entities": [
+        {
+          "entity": "ProductType",
+          "startPos": 3,
+          "endPos": 3
+        }
+      ]
+    },
+    {
+      "text": "give me some moisturisers",
+      "intent": "Product",
+      "entities": [
+        {
+          "entity": "ProductType",
+          "startPos": 3,
+          "endPos": 3
+        }
+      ]
+    },
+    {
+      "text": "are u have moisturisers",
+      "intent": "Product",
+      "entities": [
+        {
+          "entity": "ProductType",
+          "startPos": 3,
+          "endPos": 3
+        }
+      ]
+    },
+    {
+      "text": "i need a farcical moisturisers",
+      "intent": "Product",
+      "entities": [
+        {
+          "entity": "ProductType",
+          "startPos": 3,
+          "endPos": 4
+        }
+      ]
+    },
+    {
+      "text": "do u have moisturisers",
+      "intent": "Product",
+      "entities": [
+        {
+          "entity": "ProductType",
+          "startPos": 3,
+          "endPos": 3
+        }
+      ]
+    },
+    {
+      "text": "i need some moisturisers",
+      "intent": "Product",
+      "entities": [
+        {
+          "entity": "ProductType",
+          "startPos": 3,
+          "endPos": 3
+        }
+      ]
+    },
+    {
+      "text": "i want some moisturisers",
+      "intent": "Product",
+      "entities": [
+        {
+          "entity": "ProductType",
+          "startPos": 3,
+          "endPos": 3
+        }
+      ]
+    },
+    {
+      "text": "i am looking for moisturisers",
+      "intent": "Product",
+      "entities": [
+        {
+          "entity": "ProductType",
+          "startPos": 4,
+          "endPos": 4
+        }
+      ]
+    },
+    {
+      "text": "can you give me moisturisers?",
+      "intent": "Product",
+      "entities": [
+        {
+          "entity": "ProductType",
+          "startPos": 4,
+          "endPos": 4
+        }
+      ]
+    },
+    {
+      "text": "can you get me moisturisers",
+      "intent": "Product",
+      "entities": [
+        {
+          "entity": "ProductType",
+          "startPos": 4,
+          "endPos": 4
+        }
+      ]
+    },
+    {
+      "text": "i need a day moisturisers",
+      "intent": "Product",
+      "entities": [
+        {
+          "entity": "ProductType",
+          "startPos": 4,
+          "endPos": 4
+        },
+        {
+          "entity": "ApplyType",
+          "startPos": 3,
+          "endPos": 3
+        }
+      ]
+    },
+    {
+      "text": "i want a day moisturisers",
+      "intent": "Product",
+      "entities": [
+        {
+          "entity": "ProductType",
+          "startPos": 4,
+          "endPos": 4
+        },
+        {
+          "entity": "ApplyType",
+          "startPos": 3,
+          "endPos": 3
+        }
+      ]
+    },
+    {
+      "text": "can i get day moisturisers",
+      "intent": "Product",
+      "entities": [
+        {
+          "entity": "ProductType",
+          "startPos": 4,
+          "endPos": 4
+        },
+        {
+          "entity": "ApplyType",
+          "startPos": 3,
+          "endPos": 3
+        }
+      ]
+    },
+    {
+      "text": "give me some day moisturisers",
+      "intent": "Product",
+      "entities": [
+        {
+          "entity": "ProductType",
+          "startPos": 4,
+          "endPos": 4
+        },
+        {
+          "entity": "ApplyType",
+          "startPos": 3,
+          "endPos": 3
+        }
+      ]
+    },
+    {
+      "text": "are u have day moisturisers",
+      "intent": "Product",
+      "entities": [
+        {
+          "entity": "ProductType",
+          "startPos": 4,
+          "endPos": 4
+        },
+        {
+          "entity": "ApplyType",
+          "startPos": 3,
+          "endPos": 3
+        }
+      ]
+    },
+    {
+      "text": "do u have day moisturisers",
+      "intent": "Product",
+      "entities": [
+        {
+          "entity": "ProductType",
+          "startPos": 4,
+          "endPos": 4
+        },
+        {
+          "entity": "ApplyType",
+          "startPos": 3,
+          "endPos": 3
+        }
+      ]
+    },
+    {
+      "text": "i am looking for day moisturisers",
+      "intent": "Product",
+      "entities": [
+        {
+          "entity": "ProductType",
+          "startPos": 5,
+          "endPos": 5
+        },
+        {
+          "entity": "ApplyType",
+          "startPos": 4,
+          "endPos": 4
+        }
+      ]
+    },
+    {
+      "text": "i need some day moisturisers",
+      "intent": "Product",
+      "entities": [
+        {
+          "entity": "ProductType",
+          "startPos": 4,
+          "endPos": 4
+        },
+        {
+          "entity": "ApplyType",
+          "startPos": 3,
+          "endPos": 3
+        }
+      ]
+    },
+    {
+      "text": "i want some day moisturizers",
+      "intent": "Product",
+      "entities": [
+        {
+          "entity": "ProductType",
+          "startPos": 4,
+          "endPos": 4
+        },
+        {
+          "entity": "ApplyType",
+          "startPos": 3,
+          "endPos": 3
+        }
+      ]
+    },
+    {
+      "text": "can you give me day moisturisers?",
+      "intent": "Product",
+      "entities": [
+        {
+          "entity": "ProductType",
+          "startPos": 5,
+          "endPos": 5
+        },
+        {
+          "entity": "ApplyType",
+          "startPos": 4,
+          "endPos": 4
+        }
+      ]
+    },
+    {
+      "text": "can you get me day moisturisers?",
+      "intent": "Product",
+      "entities": [
+        {
+          "entity": "ProductType",
+          "startPos": 5,
+          "endPos": 5
+        },
+        {
+          "entity": "ApplyType",
+          "startPos": 4,
+          "endPos": 4
+        }
+      ]
+    },
+    {
+      "text": "i need a spf 15 moisturisers",
+      "intent": "Product",
+      "entities": [
+        {
+          "entity": "ProductType",
+          "startPos": 5,
+          "endPos": 5
+        },
+        {
+          "entity": "SPF",
+          "startPos": 3,
+          "endPos": 4
+        }
+      ]
+    },
+    {
+      "text": "i want a spf 24 moisturisers",
+      "intent": "Product",
+      "entities": [
+        {
+          "entity": "ProductType",
+          "startPos": 5,
+          "endPos": 5
+        },
+        {
+          "entity": "SPF",
+          "startPos": 3,
+          "endPos": 4
+        }
+      ]
+    },
+    {
+      "text": "i need a moisturisers spf 15",
+      "intent": "Product",
+      "entities": [
+        {
+          "entity": "ProductType",
+          "startPos": 3,
+          "endPos": 3
+        },
+        {
+          "entity": "SPF",
+          "startPos": 4,
+          "endPos": 5
+        }
+      ]
+    },
+    {
+      "text": "i want a moisturisers spf 24",
+      "intent": "Product",
+      "entities": [
+        {
+          "entity": "ProductType",
+          "startPos": 3,
+          "endPos": 3
+        },
+        {
+          "entity": "SPF",
+          "startPos": 4,
+          "endPos": 5
+        }
+      ]
+    },
+    {
+      "text": "i need a moisturisers with spf 15",
+      "intent": "Product",
+      "entities": [
+        {
+          "entity": "ProductType",
+          "startPos": 3,
+          "endPos": 3
+        },
+        {
+          "entity": "SPF",
+          "startPos": 5,
+          "endPos": 6
+        }
+      ]
+    },
+    {
+      "text": "i want a moisturisers with spf 24",
+      "intent": "Product",
+      "entities": [
+        {
+          "entity": "ProductType",
+          "startPos": 3,
+          "endPos": 3
+        },
+        {
+          "entity": "SPF",
+          "startPos": 5,
+          "endPos": 6
+        }
+      ]
+    },
+    {
+      "text": "can i get spf 24 moisturisers",
+      "intent": "Product",
+      "entities": [
+        {
+          "entity": "ProductType",
+          "startPos": 5,
+          "endPos": 5
+        },
+        {
+          "entity": "SPF",
+          "startPos": 3,
+          "endPos": 4
+        }
+      ]
+    },
+    {
+      "text": "give me some moisturisers with spf 24",
+      "intent": "Product",
+      "entities": [
+        {
+          "entity": "ProductType",
+          "startPos": 3,
+          "endPos": 3
+        },
+        {
+          "entity": "SPF",
+          "startPos": 5,
+          "endPos": 6
+        }
+      ]
+    },
+    {
+      "text": "i need a moisturisers with spf 18",
+      "intent": "Product",
+      "entities": [
+        {
+          "entity": "ProductType",
+          "startPos": 3,
+          "endPos": 3
+        },
+        {
+          "entity": "SPF",
+          "startPos": 5,
+          "endPos": 6
+        }
+      ]
+    },
+    {
+      "text": "are u have moisturisers with spf 15",
+      "intent": "Product",
+      "entities": [
+        {
+          "entity": "ProductType",
+          "startPos": 3,
+          "endPos": 3
+        },
+        {
+          "entity": "SPF",
+          "startPos": 5,
+          "endPos": 6
+        }
+      ]
+    },
+    {
+      "text": "do u have moisturisers with spf 24",
+      "intent": "Product",
+      "entities": [
+        {
+          "entity": "ProductType",
+          "startPos": 3,
+          "endPos": 3
+        },
+        {
+          "entity": "SPF",
+          "startPos": 5,
+          "endPos": 6
+        }
+      ]
+    },
+    {
+      "text": "i am looking for moisturisers with spf 24",
+      "intent": "Product",
+      "entities": [
+        {
+          "entity": "ProductType",
+          "startPos": 4,
+          "endPos": 4
+        },
+        {
+          "entity": "SPF",
+          "startPos": 6,
+          "endPos": 7
+        }
+      ]
+    },
+    {
+      "text": "i need some moisturisers spf 24",
+      "intent": "Product",
+      "entities": [
+        {
+          "entity": "ProductType",
+          "startPos": 3,
+          "endPos": 3
+        },
+        {
+          "entity": "SPF",
+          "startPos": 4,
+          "endPos": 5
+        }
+      ]
+    },
+    {
+      "text": "i want some moisturizers spf 15",
+      "intent": "Product",
+      "entities": [
+        {
+          "entity": "ProductType",
+          "startPos": 3,
+          "endPos": 3
+        },
+        {
+          "entity": "SPF",
+          "startPos": 4,
+          "endPos": 5
+        }
+      ]
+    },
+    {
+      "text": "i need a spf 15 day moisturisers",
+      "intent": "Product",
+      "entities": [
+        {
+          "entity": "ProductType",
+          "startPos": 6,
+          "endPos": 6
+        },
+        {
+          "entity": "SPF",
+          "startPos": 3,
+          "endPos": 4
+        },
+        {
+          "entity": "ApplyType",
+          "startPos": 5,
+          "endPos": 5
+        }
+      ]
+    },
+    {
+      "text": "i want a spf 24 day moisturisers",
+      "intent": "Product",
+      "entities": [
+        {
+          "entity": "ProductType",
+          "startPos": 6,
+          "endPos": 6
+        },
+        {
+          "entity": "SPF",
+          "startPos": 3,
+          "endPos": 4
+        },
+        {
+          "entity": "ApplyType",
+          "startPos": 5,
+          "endPos": 5
+        }
+      ]
+    },
+    {
+      "text": "i need a day moisturisers spf 15",
+      "intent": "Product",
+      "entities": [
+        {
+          "entity": "ProductType",
+          "startPos": 4,
+          "endPos": 4
+        },
+        {
+          "entity": "SPF",
+          "startPos": 5,
+          "endPos": 6
+        },
+        {
+          "entity": "ApplyType",
+          "startPos": 3,
+          "endPos": 3
+        }
+      ]
+    },
+    {
+      "text": "i want a day moisturisers spf 24",
+      "intent": "Product",
+      "entities": [
+        {
+          "entity": "ProductType",
+          "startPos": 4,
+          "endPos": 4
+        },
+        {
+          "entity": "SPF",
+          "startPos": 5,
+          "endPos": 6
+        },
+        {
+          "entity": "ApplyType",
+          "startPos": 3,
+          "endPos": 3
+        }
+      ]
+    },
+    {
+      "text": "i need a day moisturisers with spf 15",
+      "intent": "Product",
+      "entities": [
+        {
+          "entity": "ProductType",
+          "startPos": 4,
+          "endPos": 4
+        },
+        {
+          "entity": "SPF",
+          "startPos": 6,
+          "endPos": 7
+        },
+        {
+          "entity": "ApplyType",
+          "startPos": 3,
+          "endPos": 3
+        }
+      ]
+    },
+    {
+      "text": "i want a day moisturisers with spf 24",
+      "intent": "Product",
+      "entities": [
+        {
+          "entity": "ProductType",
+          "startPos": 4,
+          "endPos": 4
+        },
+        {
+          "entity": "SPF",
+          "startPos": 6,
+          "endPos": 7
+        },
+        {
+          "entity": "ApplyType",
+          "startPos": 3,
+          "endPos": 3
+        }
+      ]
+    },
+    {
+      "text": "can i get spf 24 day moisturisers",
+      "intent": "Product",
+      "entities": [
+        {
+          "entity": "ProductType",
+          "startPos": 6,
+          "endPos": 6
+        },
+        {
+          "entity": "SPF",
+          "startPos": 3,
+          "endPos": 4
+        },
+        {
+          "entity": "ApplyType",
+          "startPos": 5,
+          "endPos": 5
+        }
+      ]
+    },
+    {
+      "text": "give me some day moisturisers with spf 24",
+      "intent": "Product",
+      "entities": [
+        {
+          "entity": "ProductType",
+          "startPos": 4,
+          "endPos": 4
+        },
+        {
+          "entity": "SPF",
+          "startPos": 6,
+          "endPos": 7
+        },
+        {
+          "entity": "ApplyType",
+          "startPos": 3,
+          "endPos": 3
+        }
+      ]
+    },
+    {
+      "text": "are u have day moisturisers with spf 15",
+      "intent": "Product",
+      "entities": [
+        {
+          "entity": "ProductType",
+          "startPos": 4,
+          "endPos": 4
+        },
+        {
+          "entity": "SPF",
+          "startPos": 6,
+          "endPos": 7
+        },
+        {
+          "entity": "ApplyType",
+          "startPos": 3,
+          "endPos": 3
+        }
+      ]
+    },
+    {
+      "text": "do u have day moisturisers with spf 24",
+      "intent": "Product",
+      "entities": [
+        {
+          "entity": "ProductType",
+          "startPos": 4,
+          "endPos": 4
+        },
+        {
+          "entity": "SPF",
+          "startPos": 6,
+          "endPos": 7
+        },
+        {
+          "entity": "ApplyType",
+          "startPos": 3,
+          "endPos": 3
+        }
+      ]
+    },
+    {
+      "text": "i am looking for day moisturisers with spf 24",
+      "intent": "Product",
+      "entities": [
+        {
+          "entity": "ProductType",
+          "startPos": 5,
+          "endPos": 5
+        },
+        {
+          "entity": "SPF",
+          "startPos": 7,
+          "endPos": 8
+        },
+        {
+          "entity": "ApplyType",
+          "startPos": 4,
+          "endPos": 4
+        }
+      ]
+    },
+    {
+      "text": "i need some day moisturisers spf 24",
+      "intent": "Product",
+      "entities": [
+        {
+          "entity": "ProductType",
+          "startPos": 4,
+          "endPos": 4
+        },
+        {
+          "entity": "SPF",
+          "startPos": 5,
+          "endPos": 6
+        },
+        {
+          "entity": "ApplyType",
+          "startPos": 3,
+          "endPos": 3
+        }
+      ]
+    },
+    {
+      "text": "i want some day moisturizers spf 15",
+      "intent": "Product",
+      "entities": [
+        {
+          "entity": "ProductType",
+          "startPos": 4,
+          "endPos": 4
+        },
+        {
+          "entity": "SPF",
+          "startPos": 5,
+          "endPos": 6
+        },
+        {
+          "entity": "ApplyType",
+          "startPos": 3,
+          "endPos": 3
+        }
+      ]
+    },
+    {
+      "text": "i need a sun protection moisturisers with spf 15",
+      "intent": "Product",
+      "entities": [
+        {
+          "entity": "ProductType",
+          "startPos": 5,
+          "endPos": 5
+        },
+        {
+          "entity": "SPF",
+          "startPos": 7,
+          "endPos": 8
+        },
+        {
+          "entity": "ApplyType",
+          "startPos": 3,
+          "endPos": 3
+        }
+      ]
+    },
+    {
+      "text": "i want a sun protection moisturisers with spf 15",
+      "intent": "Product",
+      "entities": [
+        {
+          "entity": "ProductType",
+          "startPos": 5,
+          "endPos": 5
+        },
+        {
+          "entity": "SPF",
+          "startPos": 7,
+          "endPos": 8
+        },
+        {
+          "entity": "ApplyType",
+          "startPos": 3,
+          "endPos": 3
+        }
+      ]
+    },
+    {
+      "text": "i need sun protection moisturisers with spf 15",
+      "intent": "Product",
+      "entities": [
+        {
+          "entity": "ProductType",
+          "startPos": 4,
+          "endPos": 4
+        },
+        {
+          "entity": "SPF",
+          "startPos": 6,
+          "endPos": 7
+        },
+        {
+          "entity": "ApplyType",
+          "startPos": 2,
+          "endPos": 2
+        }
+      ]
+    },
+    {
+      "text": "i want sun protection moisturisers with spf 15",
+      "intent": "Product",
+      "entities": [
+        {
+          "entity": "ProductType",
+          "startPos": 4,
+          "endPos": 4
+        },
+        {
+          "entity": "SPF",
+          "startPos": 6,
+          "endPos": 7
+        },
+        {
+          "entity": "ApplyType",
+          "startPos": 2,
+          "endPos": 2
+        }
+      ]
+    },
+    {
+      "text": "i need moisturiser",
+      "intent": "Product",
+      "entities": [
+        {
+          "entity": "ProductType",
+          "startPos": 2,
+          "endPos": 2
+        }
+      ]
+    },
+    {
+      "text": "i need moistriser",
+      "intent": "Product",
+      "entities": [
+        {
+          "entity": "ProductType",
+          "startPos": 2,
+          "endPos": 2
+        }
+      ]
+    },
+    {
+      "text": "locate store",
+      "intent": "LocateStore",
+      "entities": []
+    },
+    {
+      "text": "store",
+      "intent": "LocateStore",
+      "entities": []
+    },
+    {
+      "text": "locate stor",
+      "intent": "LocateStore",
+      "entities": []
+    },
+    {
+      "text": "p1",
+      "intent": "LocateStore",
+      "entities": []
+    },
+    {
+      "text": "p2",
+      "intent": "LocateStore",
+      "entities": []
+    },
+    {
+      "text": "p3",
+      "intent": "LocateStore",
+      "entities": []
+    },
+    {
+      "text": "pid4",
+      "intent": "LocateStore",
+      "entities": []
+    },
+    {
+      "text": "pid1",
+      "intent": "LocateStore",
+      "entities": []
+    },
+    {
+      "text": "pid2",
+      "intent": "LocateStore",
+      "entities": []
+    },
+    {
+      "text": "pid3",
+      "intent": "LocateStore",
+      "entities": []
+    },
+    {
+      "text": "pid6",
+      "intent": "LocateStore",
+      "entities": []
+    },
+    {
+      "text": "pid7",
+      "intent": "LocateStore",
+      "entities": []
+    },
+    {
+      "text": "pid22",
+      "intent": "LocateStore",
+      "entities": []
+    }
+  ]
+}
