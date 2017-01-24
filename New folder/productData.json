@@ -1,0 +1,570 @@
+{ 
+"product_data":[
+	{
+		"zip_code":"32601",
+		"ProductList":[
+			{
+				"product":"Business Owner Package",
+				"AgentDetails":[
+					{
+						"Name":"Mark Spencer",
+						"Address":"1500 E MAIN AVE",
+						"City":"Gainesville",
+						"State":"Florida",
+						"Zipcode":"32601",
+						"Email":"mark@macawinsurance.com",
+						"PhoneNumber":"912-319-9098"
+				
+					},
+					{
+						"Name":"Will Smith",
+						"Address":"204 Northwest",
+						"City":"Gainesville",
+						"State":"Florida",
+						"Zipcode":"32601",
+						"Email":"will@macawinsurance.com",
+						"PhoneNumber":"467-319-8798"
+				
+					},
+					{
+						"Name":"Debbie Jones",
+						"Address":"1340 North Blvd",
+						"City":"Gainesville",
+						"State":"Florida",
+						"Zipcode":"32601",
+						"Email":"debbiejones@macawinsurance.com",
+						"PhoneNumber":"234-678-6578"
+				
+					}
+				]
+		
+			},
+			{
+				"product":"Commerical Package Policy",
+				"AgentDetails":[
+					{
+						"Name":"Mark Spencer",
+						"Address":"1500 E MAIN AVE",
+						"City":"Gainesville",
+						"State":"Florida",
+						"Zipcode":"32601",
+						"Email":"mark@macawinsurance.com",
+						"PhoneNumber":"912-319-9098"
+				
+					},
+					{
+						"Name":"Will Smith",
+						"Address":"204 Northwest",
+						"City":"Gainesville",
+						"State":"Florida",
+						"Zipcode":"32601",
+						"Email":"will@macawinsurance.com",
+						"PhoneNumber":"467-319-8798"
+				
+					},
+					{
+						"Name":"Debbie Jones",
+						"Address":"1340 North Blvd",
+						"City":"Gainesville",
+						"State":"Florida",
+						"Zipcode":"32601",
+						"Email":"debbiejones@macawinsurance.com",
+						"PhoneNumber":"234-678-6578"
+				
+					}
+				]
+		
+			},
+			{
+				"product":"General Liability",
+				"AgentDetails":[
+					{
+						"Name":"Mark Spencer",
+						"Address":"1500 E MAIN AVE",
+						"City":"Gainesville",
+						"State":"Florida",
+						"Zipcode":"32601",
+						"Email":"mark@macawinsurance.com",
+						"PhoneNumber":"912-319-9098"
+				
+					},
+					{
+						"Name":"Will Smith",
+						"Address":"204 Northwest",
+						"City":"Gainesville",
+						"State":"Florida",
+						"Zipcode":"32601",
+						"Email":"will@macawinsurance.com",
+						"PhoneNumber":"467-319-8798"
+				
+					},
+					{
+						"Name":"Debbie Jones",
+						"Address":"1340 North Blvd",
+						"City":"Gainesville",
+						"State":"Florida",
+						"Zipcode":"32601",
+						"Email":"debbiejones@macawinsurance.com",
+						"PhoneNumber":"234-678-6578"
+				
+					}
+				]
+		
+			},
+			{
+				"product":"Cyber Liability",
+				"AgentDetails":[
+					{
+						"Name":"Mark Spencer",
+						"Address":"1500 E MAIN AVE",
+						"City":"Gainesville",
+						"State":"Florida",
+						"Zipcode":"32601",
+						"Email":"mark@macawinsurance.com",
+						"PhoneNumber":"912-319-9098"
+				
+					},
+					{
+						"Name":"Will Smith",
+						"Address":"204 Northwest",
+						"City":"Gainesville",
+						"State":"Florida",
+						"Zipcode":"32601",
+						"Email":"will@macawinsurance.com",
+						"PhoneNumber":"467-319-8798"
+				
+					},
+					{
+						"Name":"Debbie Jones",
+						"Address":"1340 North Blvd",
+						"City":"Gainesville",
+						"State":"Florida",
+						"Zipcode":"32601",
+						"Email":"debbiejones@macawinsurance.com",
+						"PhoneNumber":"234-678-6578"
+				
+					}
+				]
+		
+			},
+			{
+				"product":"Commercial Crime",
+				"AgentDetails":[
+					{
+						"Name":"Mark Spencer",
+						"Address":"1500 E MAIN AVE",
+						"City":"Gainesville",
+						"State":"Florida",
+						"Zipcode":"32601",
+						"Email":"mark@macawinsurance.com",
+						"PhoneNumber":"912-319-9098"
+				
+					},
+					{
+						"Name":"Will Smith",
+						"Address":"204 Northwest",
+						"City":"Gainesville",
+						"State":"Florida",
+						"Zipcode":"32601",
+						"Email":"will@macawinsurance.com",
+						"PhoneNumber":"467-319-8798"
+				
+					},
+					{
+						"Name":"Debbie Jones",
+						"Address":"1340 North Blvd",
+						"City":"Gainesville",
+						"State":"Florida",
+						"Zipcode":"32601",
+						"Email":"debbiejones@macawinsurance.com",
+						"PhoneNumber":"234-678-6578"
+				
+					}
+				]
+		
+			}
+			
+		]
+
+
+	},
+	{
+		"zip_code":"53001",
+		"ProductList":[
+			{
+				"product":"Business Owner Package",
+				"AgentDetails":[
+					{
+						"Name":"Fin Spencer",
+						"Address":"326 Center Avenue",
+						"City":"Adell",
+						"State":"Wisconsin",
+						"Zipcode":"53001",
+						"Email":"Fin@macawinsurance.com",
+						"PhoneNumber":"812-319-9098"
+				
+					},
+					{
+						"Name":"John Smith",
+						"Address":"105 Lake St",
+						"City":"Adell",
+						"State":"Wisconsin",
+						"Zipcode":"53001",
+						"Email":"John@macawinsurance.com",
+						"PhoneNumber":"492-222-0238"
+				
+					},
+					{
+						"Name":"Fred Jones",
+						"Address":"608 Tower Ave",
+						"City":"Adell",
+						"State":"Wisconsin",
+						"Zipcode":"53001",
+						"Email":"Fredjones@macawinsurance.com",
+						"PhoneNumber":"234-678-6579"
+				
+					}
+				]
+		
+			},
+			{
+				"product":"Commerical Package Policy",
+				"AgentDetails":[
+					{
+						"Name":"Fin Spencer",
+						"Address":"326 Center Avenue",
+						"City":"Adell",
+						"State":"Wisconsin",
+						"Zipcode":"53001",
+						"Email":"Fin@macawinsurance.com",
+						"PhoneNumber":"812-319-9098"
+				
+					},
+					{
+						"Name":"John Smith",
+						"Address":"105 Lake St",
+						"City":"Adell",
+						"State":"Wisconsin",
+						"Zipcode":"53001",
+						"Email":"John@macawinsurance.com",
+						"PhoneNumber":"492-222-0238"
+				
+					},
+					{
+						"Name":"Fred Jones",
+						"Address":"608 Tower Ave",
+						"City":"Adell",
+						"State":"Wisconsin",
+						"Zipcode":"53001",
+						"Email":"Fredjones@macawinsurance.com",
+						"PhoneNumber":"234-678-6579"
+				
+					}
+				]
+		
+			},
+			{
+				"product":"General Liability",
+				"AgentDetails":[
+					{
+						"Name":"Fin Spencer",
+						"Address":"326 Center Avenue",
+						"City":"Adell",
+						"State":"Wisconsin",
+						"Zipcode":"53001",
+						"Email":"Fin@macawinsurance.com",
+						"PhoneNumber":"812-319-9098"
+				
+					},
+					{
+						"Name":"John Smith",
+						"Address":"105 Lake St",
+						"City":"Adell",
+						"State":"Wisconsin",
+						"Zipcode":"53001",
+						"Email":"John@macawinsurance.com",
+						"PhoneNumber":"492-222-0238"
+				
+					},
+					{
+						"Name":"Fred Jones",
+						"Address":"608 Tower Ave",
+						"City":"Adell",
+						"State":"Wisconsin",
+						"Zipcode":"53001",
+						"Email":"Fredjones@macawinsurance.com",
+						"PhoneNumber":"234-678-6579"
+				
+					}
+				]
+		
+			},
+			{
+				"product":"Cyber Liability",
+				"AgentDetails":[
+					{
+						"Name":"Fin Spencer",
+						"Address":"326 Center Avenue",
+						"City":"Adell",
+						"State":"Wisconsin",
+						"Zipcode":"53001",
+						"Email":"Fin@macawinsurance.com",
+						"PhoneNumber":"812-319-9098"
+				
+					},
+					{
+						"Name":"John Smith",
+						"Address":"105 Lake St",
+						"City":"Adell",
+						"State":"Wisconsin",
+						"Zipcode":"53001",
+						"Email":"John@macawinsurance.com",
+						"PhoneNumber":"492-222-0238"
+				
+					},
+					{
+						"Name":"Fred Jones",
+						"Address":"608 Tower Ave",
+						"City":"Adell",
+						"State":"Wisconsin",
+						"Zipcode":"53001",
+						"Email":"Fredjones@macawinsurance.com",
+						"PhoneNumber":"234-678-6579"
+				
+					}
+				]
+		
+			},
+			{
+				"product":"Commercial Crime",
+				"AgentDetails":[
+					{
+						"Name":"Fin Spencer",
+						"Address":"326 Center Avenue",
+						"City":"Adell",
+						"State":"Wisconsin",
+						"Zipcode":"53001",
+						"Email":"Fin@macawinsurance.com",
+						"PhoneNumber":"812-319-9098"
+				
+					},
+					{
+						"Name":"John Smith",
+						"Address":"105 Lake St",
+						"City":"Adell",
+						"State":"Wisconsin",
+						"Zipcode":"53001",
+						"Email":"John@macawinsurance.com",
+						"PhoneNumber":"492-222-0238"
+				
+					},
+					{
+						"Name":"Fred Jones",
+						"Address":"608 Tower Ave",
+						"City":"Adell",
+						"State":"Wisconsin",
+						"Zipcode":"53001",
+						"Email":"Fredjones@macawinsurance.com",
+						"PhoneNumber":"234-678-6579"
+				
+					}
+				]
+		
+			}
+			
+		]
+
+
+	},
+	{
+		"zip_code":"53002",
+		"ProductList":[
+			{
+				"product":"Business Owner Package",
+				"AgentDetails":[
+					{
+						"Name":"Web Jonathan",
+						"Address":"45 Lord St",
+						"City":"Allenton",
+						"State":"Wisconsin",
+						"Zipcode":"53002",
+						"Email":"Web@macawinsurance.com",
+						"PhoneNumber":"912-444-9098"
+				
+					},
+					{
+						"Name":"Jill Carlton",
+						"Address":"2 Victory Rd",
+						"City":"Allenton",
+						"State":"Wisconsin",
+						"Zipcode":"53002",
+						"Email":"Jill@macawinsurance.com",
+						"PhoneNumber":"765-319-9098"
+				
+					},
+					{
+						"Name":"Deb Silverstone",
+						"Address":"22 Crayford Rd",
+						"City":"Adell",
+						"State":"Allenton",
+						"Zipcode":"53002",
+						"Email":"DebSilverstone@macawinsurance.com",
+						"PhoneNumber":"777-678-6578"
+				
+					}
+				]
+		
+			},
+			{
+				"product":"Commerical Package Policy",
+				"AgentDetails":[
+					{
+						"Name":"Web Jonathan",
+						"Address":"45 Lord St",
+						"City":"Allenton",
+						"State":"Wisconsin",
+						"Zipcode":"53002",
+						"Email":"Web@macawinsurance.com",
+						"PhoneNumber":"912-444-9098"
+				
+					},
+					{
+						"Name":"Jill Carlton",
+						"Address":"2 Victory Rd",
+						"City":"Allenton",
+						"State":"Wisconsin",
+						"Zipcode":"53002",
+						"Email":"Jill@macawinsurance.com",
+						"PhoneNumber":"765-319-9098"
+				
+					},
+					{
+						"Name":"Deb Silverstone",
+						"Address":"22 Crayford Rd",
+						"City":"Adell",
+						"State":"Allenton",
+						"Zipcode":"53002",
+						"Email":"DebSilverstone@macawinsurance.com",
+						"PhoneNumber":"777-678-6578"
+				
+					}
+				]
+		
+			},
+			{
+				"product":"General Liability",
+				"AgentDetails":[
+					{
+						"Name":"Web Jonathan",
+						"Address":"45 Lord St",
+						"City":"Allenton",
+						"State":"Wisconsin",
+						"Zipcode":"53002",
+						"Email":"Web@macawinsurance.com",
+						"PhoneNumber":"912-444-9098"
+				
+					},
+					{
+						"Name":"Jill Carlton",
+						"Address":"2 Victory Rd",
+						"City":"Allenton",
+						"State":"Wisconsin",
+						"Zipcode":"53002",
+						"Email":"Jill@macawinsurance.com",
+						"PhoneNumber":"765-319-9098"
+				
+					},
+					{
+						"Name":"Deb Silverstone",
+						"Address":"22 Crayford Rd",
+						"City":"Adell",
+						"State":"Allenton",
+						"Zipcode":"53002",
+						"Email":"DebSilverstone@macawinsurance.com",
+						"PhoneNumber":"777-678-6578"
+				
+					}
+				]
+		
+			},
+			{
+				"product":"Cyber Liability",
+				"AgentDetails":[
+					{
+						"Name":"Web Jonathan",
+						"Address":"45 Lord St",
+						"City":"Allenton",
+						"State":"Wisconsin",
+						"Zipcode":"53002",
+						"Email":"Web@macawinsurance.com",
+						"PhoneNumber":"912-444-9098"
+				
+					},
+					{
+						"Name":"Jill Carlton",
+						"Address":"2 Victory Rd",
+						"City":"Allenton",
+						"State":"Wisconsin",
+						"Zipcode":"53002",
+						"Email":"Jill@macawinsurance.com",
+						"PhoneNumber":"765-319-9098"
+				
+					},
+					{
+						"Name":"Deb Silverstone",
+						"Address":"22 Crayford Rd",
+						"City":"Adell",
+						"State":"Allenton",
+						"Zipcode":"53002",
+						"Email":"DebSilverstone@macawinsurance.com",
+						"PhoneNumber":"777-678-6578"
+				
+					}
+				]
+		
+			},
+			{
+				"product":"Commercial Crime",
+				"AgentDetails":[
+					{
+						"Name":"Web Jonathan",
+						"Address":"45 Lord St",
+						"City":"Allenton",
+						"State":"Wisconsin",
+						"Zipcode":"53002",
+						"Email":"Web@macawinsurance.com",
+						"PhoneNumber":"912-444-9098"
+				
+					},
+					{
+						"Name":"Jill Carlton",
+						"Address":"2 Victory Rd",
+						"City":"Allenton",
+						"State":"Wisconsin",
+						"Zipcode":"53002",
+						"Email":"Jill@macawinsurance.com",
+						"PhoneNumber":"765-319-9098"
+				
+					},
+					{
+						"Name":"Deb Silverstone",
+						"Address":"22 Crayford Rd",
+						"City":"Adell",
+						"State":"Allenton",
+						"Zipcode":"53002",
+						"Email":"DebSilverstone@macawinsurance.com",
+						"PhoneNumber":"777-678-6578"
+				
+					}
+				]
+		
+			}
+			
+		]
+
+
+	}
+	
+]
+	
+}

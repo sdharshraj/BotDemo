@@ -1,0 +1,44 @@
+{
+  "Customers": [
+    {
+      "CustomerID": "C940324",
+      "FirstName": "Jacob",
+      "LastName": "Ethan",
+      "MobileNumber": 6498900170,
+      "AlternateMobileNumber": 7327334513,
+      "EmailID": "sanjeev.kumar4@mindtree.com",
+      "CurrentAddress": "300 BOYLSTON AVE E SEATTLE WA 98102",
+      "TermInsurancePolicyNumber":"MTI251431",
+      "HealthInsurancePolicyNumber":"MHI490685",
+      "InvestmentLinkedPolicy":[
+        {
+          "InvestmentLinkedPolicyNumber":"MII866166",
+          "BalancedFund":"40%",
+          "DebtFund":"20%",
+          "CashFund":"20%",
+          "EquityFund":"20%"    
+        }
+      ]
+    },
+    {
+      "CustomerID": "C324531",
+      "FirstName": "Daniel",
+      "LastName": "Anthony",
+      "MobileNumber": 6506384093,
+      "AlternateMobileNumber": 7334818436,
+      "EmailID": "sanjeev.kumar4@mindtree.com",
+      "CurrentAddress": "87 GALENA DRIVE HILLSDALE KEYSTONE AL 35007",
+      "TermInsurancePolicyNumber":"MTI259863",
+      "HealthInsurancePolicyNumber":"MHI499117",
+      "InvestmentLinkedPolicy":[
+        {
+          "InvestmentLinkedPolicyNumber":"MII874598",
+          "BalancedFund":"35%",
+          "DebtFund":"15%",
+          "CashFund":"27%",
+          "EquityFund":"23%"    
+        }
+      ]
+    }
+  ]
+}

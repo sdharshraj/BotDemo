@@ -1,0 +1,20 @@
+{
+  "name": "life_and_annuities",
+  "version": "1.0.0",
+  "description": "insurance related things",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "sanjeev",
+  "license": "ISC",
+  "dependencies": {
+    "botbuilder": "^3.5.1",
+    "cron": "^1.2.1",
+    "dotenv": "^2.0.0",
+    "node-schedule": "^1.2.0",
+    "nodemailer": "^2.7.0",
+    "randomstring": "^1.1.5",
+    "restify": "^4.3.0"
+  }
+}

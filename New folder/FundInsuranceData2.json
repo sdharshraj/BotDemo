@@ -1,0 +1,58 @@
+{
+  "Customers": [
+    {
+      "CustomerID": "C123456",
+	  "EmailID":"sunny.kumar2@mindtree.com",
+	  "ProducerName": "John",
+	  "PolicyNumber": "A12345",
+	  "insurance": [
+	    {
+		"policy1": "Auto Insurance",
+		"policy2": "Employee Dishonesty"
+		}
+	  ],
+	  "HiredAndNonOwnedAutoInsurance":[
+			{
+			  "PolicyType": "Liability",
+			  "PolicyNumber": "A12345",
+			  "coverages": "Liability",
+			  "EffectiveDate": "1/1/2016",
+			  "ExpiryDate": "1/1/2017",
+			  "Status": "Active",
+			  "AOA": "10000",
+			  "AOY": "60000",
+			  "Deductible": "500",
+			  "ProducerType": "Direct",
+			  "ProducerName": "John",
+			  "ProducerNumber": "151",
+			  "InsuredName": "Christopher",
+			  "Address": "Lee",
+			  "EmailID": "ChristopherLee@gmail.com",
+			  "PHNo": "878-202-2973",
+			  "ZipCode": "32059",
+			  "SSN": "XXX",
+			  "DLNo": "F255-9215-0094",
+			  "MartialStatus": "Married",
+			  "VehNo": "123 3BC",
+			  "RegStateOfPlying": "Florida",
+			  "VehCategory": "Sedan",
+			  "Year": "2010",
+			  "Make": "Chrysler",
+			  "Model": "Imperial",
+			  "Color": "Blue"
+			  
+			}
+		],
+	  "EmployeeDishonesty":[
+		   {
+		  "PolicyNumber":"ED1234",
+		  "EffectiveDate": "1/1/2016",
+		  "ExpiryDate": "1/1/2017",
+		  "Status":"active"
+		   }
+	   ]
+
+    }
+   
+  ]
+}
