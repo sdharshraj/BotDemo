@@ -39,7 +39,7 @@ namespace OlayChatBot.Models
             await context.PostAsync(MessagesResource.Welcome);
             context.Wait(MessageReceived);
         }
-
+//calling prduct method
         [LuisIntent("Product")]
         public async Task Product(IDialogContext context, LuisResult result)
         {
